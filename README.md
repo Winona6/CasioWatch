@@ -13,7 +13,7 @@
 ##### ☆首页
 ![首页](https://github.com/Winona6/ProjectView/blob/master/index.png "首页")
 
-#####页面为什么会有位置出现空白呢？这是因为用chrome浏览器的截的长图，会看不到页面滚动时的动态效果哦~
+##### 页面为什么会有位置出现空白呢？这是因为用chrome浏览器截的长图，会看不到页面滚动时的动态效果哦~
 ![首页](https://github.com/Winona6/ProjectView/blob/master/index1.png "首页")
 ##### ☆商品详情页
 ![商品详情页](https://github.com/Winona6/ProjectView/blob/master/product_detail.png "商品详情页")
