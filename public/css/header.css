@@ -1,0 +1,106 @@
+#header_top{
+    background: black;
+}
+/*头部导航第一行*/
+div.container>.first{
+    height:41px;
+    line-height: 41px;
+}
+div.container>.first>.left a,div.container>.first>.right a{
+    color:white;
+}
+div.container>.first>.left li{
+    float: left;
+    padding-left:50px;
+}
+div.container>.first>.right li{
+    float: right;
+    padding-left:50px;
+}
+/*头部导航第二行*/
+div.container>.second>.logo{
+    float: left;
+    padding-top:6px;
+    padding-left: 50px;
+}
+div.container>.second>.center>li{
+    float:left;
+    padding-left: 20px;
+    padding-top:30px;
+}
+div.container>.second>.center>li>a{
+    color: #221815;
+    font-weight: 600;
+}
+div.container>.second>.right{
+    padding-top: 24px;
+    position:relative;
+}
+div.container>.second>.right>input{
+    float:right;
+    width:210px;
+    height:34px;
+    border: 1px solid  #bcbbba;
+    border-radius: 25px;
+    padding-left: 20px;
+    outline-style: none;
+}
+div.container>.second>.right img{
+  position:absolute;
+  right:10px;
+  top:30px;
+}
+div.second>ul.center>li>a{
+   padding:15px;
+   transition:all 300ms linear;
+}
+div.second>ul.center>li>a:hover{
+   border:2px solid transparent;
+   border-bottom:2px solid #595959;
+   font-size:16px;
+ }
+ #search{
+     cursor: pointer;
+ }
+ li.dropdown{
+    position: relative;
+ }
+.dropdown-menu{
+    width:160px;
+    list-style:none;
+    position:absolute;
+    top:70px; 
+    z-index: 1000;
+    background: #fff; 
+    border-radius: 4%;
+    border:0.5px solid #ccc;
+}
+.dropdown-menu li{
+    line-height: 30px;
+}
+.dropdown-menu li:not(:first-child){
+    padding-left: 40px;
+}
+.dropdown-menu li:first-child{
+    text-align: center;
+}
+.dropdown-menu li a{
+    color:#595757;
+}
+.dropdown-menu li a img{
+    width:100%;
+    height:110px;
+    border-radius:4%;
+    opacity: .5;
+    transition:all 300ms linear;
+}
+.dropdown-menu li a img:hover{
+    opacity: 1;
+}
+.dropdown-menu li:last-child{
+    padding-bottom:12px;
+}
+.dropdown-menu li>a:hover{
+   color:#221815;
+   font-weight: 600;
+}

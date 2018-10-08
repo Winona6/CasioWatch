@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>新用户注册-会员中心</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+    <div class="header">
+      <div class="header_logo">
+         <a href="index.html"><img src="img/casio-logo.png"></a>
+      </div>
+    </div>
+    <div class="center">           
+        <form class="register">
+          <p class="txt">新用户注册<span><a href="login.html">直接登录</a></span></p>
+          <div class="line"></div>
+          <div class="text">
+            <label for="uname">用户名：</label>
+            <input type="text" placeholder="请输入用户名" id="uname">
+            <span class="msg1"></span>
+          </div>
+          <div class="text">
+            <label for="upwd">登录密码：</label>
+            <input type="password" placeholder="请输入密码" id="upwd">
+            <span class="msg2"></span>
+          </div>
+          <div class="text" >
+            <label for="cpwd">确认密码：</label>
+            <input type="password" placeholder="请确认密码" id="cpwd">
+            <span class="msg3"></span>
+          </div>
+          <div class="text">
+            <label for="email">邮箱：</label>
+            <input type="text" placeholder="请输入邮箱地址" id="email">
+            <span class="msg4"></span>
+          </div>
+          <div class="text">
+            <label for="phone">手机号：</label>
+            <input type="text" placeholder="请输入您的手机号" id="phone">
+            <span class="msg5"></span>
+          </div>
+          <input type="button" value="提交注册信息" class="bt-register" id="zcyz">
+        </form>
+    </div>
+      <!--网页底部-->
+      <div id="footer_bottom">
+            <h5>&copy;2018 卡西欧官方商城 版权所有 京ICP备 10009123号-10</h5>
+      </div>    
+      <script src="js/jquery-3.2.1.js"></script>
+      <script src="js/register.js"></script>  
+</body>
+</html>

@@ -1,0 +1,224 @@
+/*main主体内容*/
+div.container div.breadcrumb{
+    color:#000;
+    margin:8px 3px;
+}
+div.container ul.sort{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:20px;
+}
+div.container ul.sort li a{
+    padding:6px 15px 7px;
+    background:#fafafc;
+    color:#000;
+}
+div.container ul.sort li{
+    color:#000;
+    line-height: 30px;
+}
+div.container ul.sort li a:hover{
+    cursor:pointer;
+    background:#000;
+    color: #fff; 
+}
+div.products-container{
+    margin-left:30px;
+}
+div.product-module{
+    width:230px;
+    height:350px;
+    border:1px solid #ddd;
+}
+div.product-module img{
+    width:90%;
+}
+div.product-module div.details{
+    color:#000;
+    font-weight: 600;
+    padding-left:8px;
+}
+div.product-module div.details h3{
+    font-size:18px;
+    color:#c00;
+    font-weight:700;
+    text-align: center;
+    margin:8px auto;
+}
+div.product-module div.but-cart button:first-child{
+    margin-left:20px;
+}
+div.product-module div.but-cart button{
+   padding:5px 8px;
+   cursor:pointer;
+}
+div.product-module div.but-cart input{
+    width:30px;
+    height:30px;
+    text-align: center;
+    margin:0 2px;
+}
+div.product-module div.but-cart .addcart{
+    background:#2c9ba0;
+    width:80px;
+    height:32px;
+    color: #fff;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 3px;
+    float:right;
+    margin-right: 22px;
+    cursor:pointer;
+}
+div.product-module:hover{
+    border:2px solid #fa8072;
+}
+div.products-row div.product-module{
+    float:left;
+    margin-right:15px;
+    margin-bottom:15px;
+}
+div.products-row div.product-module img{
+    margin-left:10px;
+}
+div.product-list{
+    position:relative;
+}
+#plist{
+    height:700px;
+}
+div.aside-bar{
+    width:230px;
+    border:1px dashed #ddd;
+    position:absolute;
+    left: 992px;
+    top:0;
+} 
+div.aside-bar h3{
+    color:#144686;
+    font-weight: 800;
+    font-size:18px;
+    text-align:center;
+    background: -webkit-linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%);
+    height:30px;
+    line-height: 30px;
+}
+div.aside-bar div.products{
+    color:#333;
+    font-weight: 800;
+    text-align: center;
+}
+div.aside-bar div.products img{
+    width: 80%;
+    margin-left:10px;
+}
+div.aside-bar div.products .price{
+    color:#c00;
+    font-size:16px;
+}
+div.aside-bottom{
+    top:540px;
+}
+ul.aside-cart{
+    position: relative;
+}
+ul.aside-cart .add-product{
+    height:40px; 
+    line-height:40px;
+    color:#000;
+    background:#fff;
+    display:flex;
+    justify-content: space-between;
+}
+ul.aside-cart .add-product .details{
+    padding-left:6px;
+}
+ul.aside-cart .add-product button{
+    margin-top:10px;
+    height:20px;
+    padding:0 4px;
+}
+ul.aside-cart li.price{
+    width:150px;
+    height:34px;
+    background: #808080;
+    font-size:20px;
+    padding:2px 20px;
+}
+ul.aside-cart a.gobuy{
+    position:absolute;
+    bottom:0px;
+    left:150px;
+    width:78px;
+    height:34px;
+    background:#fa8072;
+    font-size:18px;
+    line-height:34px;
+    text-align: center;
+}
+/*页脚*/
+div.line{
+    clear:both;
+    width:1222px;
+    height:4px;
+    background: -webkit-linear-gradient(right,#144686,#006699,#0aa1ed,#2c9ba0); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right,#144686,#006699,#0aa1ed,#2c9ba0); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right,#144686,#006699,#0aa1ed,#2c9ba0); /* Firefox 3.6 - 15 */
+    background: linear-gradient(right,#144686,#006699,#0aa1ed,#2c9ba0); /* 标准的语法 */  
+    margin-bottom:5px;
+}
+div.pagelist{
+    margin-left:260px;
+    margin-top:50px;
+    position:relative;
+    margin-bottom:50px;
+}
+div.pagelist ul li{
+    font-size:12px;
+    border:1px solid #000;
+    padding:4px 9px;
+    border-radius:2px;
+}
+div.pagelist ul li a{
+    color:#000;
+}
+div.pagelist ul.page{
+    display:flex;
+    justify-items: flex-start;
+}
+div.pagelist ul.page li:nth-child(2){
+    margin-right:6px;
+}
+div.pagelist ul.page li:first-child{
+    margin-right:14px;
+}
+div.pagelist ul.page li:last-child{
+    margin-left:12px;
+}
+div.pagelist ul.page li.active{
+    background-color:#005baa;
+}
+div.jumppage{
+    position:absolute;
+    left:350px;
+    top:0;
+    color:#595757;
+    display: flex;
+}
+div.jumppage>div:first-child>input{
+    width:25px;
+    height:25px;
+}
+div.jumppage>button{
+    padding:6px 20px;
+    background:#005baa;
+    border-radius: 2px;
+    margin-top:-2px;
+    margin-left:8px;
+    border:none;
+    color:#fff;
+    font-size:12px; 
+}
+.disabled{
+    opacity:0.5;
+}

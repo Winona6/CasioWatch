@@ -1,0 +1,68 @@
+div.footer_top{
+    background:#333;
+    height:80px;
+    padding-top: 20px;
+}
+div.footer_top>.container>ul.first>li{
+    float: left;
+    width:20%;
+    text-align: center;
+}
+#footer_bottom{
+    background: #000;
+    height:360px;           
+}
+#footer_bottom .left{
+    margin-left:80px;
+}
+#footer_bottom h4{
+    font-size: 16px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+#footer_bottom .list{
+    line-height: 25px; 
+    cursor: pointer; 
+}
+#footer_bottom .list li:hover{
+    color:#ccc;
+}
+#footer_bottom .center{
+    margin-left:340px;
+    margin-top:-200px;
+}
+#footer_bottom .right{
+    margin-left: 590px;
+    margin-top:-230px;
+}
+
+#footer_bottom .right p{
+    padding-top: 5px;
+}
+#footer_bottom .erweima .phone{
+    margin-left:900px;
+    margin-top:-160px;
+}
+#footer_bottom .erweima .phone:hover{
+    position:relative;
+    right:10px;
+}
+#footer_bottom .erweima .wechat{
+    margin-left:1050px;
+    margin-top:-128px;
+}
+#footer_bottom .erweima .wechat:hover{
+    position:relative;
+    left:10px;
+}
+#footer_bottom .erweima p{
+    width:98px;
+    text-align:center;
+}
+#footer_bottom h5{
+    margin-top:100px;
+    color:#ccc;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 6px;
+}

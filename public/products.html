@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>卡西欧手表官方商城</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+<!--网页头部导航-->
+    <header id="header"></header>  
+    <!--内容-->
+    <div class="container">              
+       <!-- banner部分-->
+        <div class="banner">
+            <img src="img/baby_banner.png">
+        </div>
+        <div class="breadcrumb">
+            <img src="img/home-breadcrumb.png"> &nbsp;&nbsp;<strong>首页 > 商品列表</strong>
+        </div>
+        <div class="line">
+        </div>
+        <!--排序显示-->
+        <ul class="sort">
+            <li><a class="sort-bg">按最新新品排序</a></li>
+            <li><a class="sort-bg">按销量排序</a></li>
+            <li><a class="sort-bg">按人气排序</a></li>
+            <li><a class="sort-bg">价格从高到底</a></li>
+            <li><a class="sort-bg">价格从低到高</a></li>
+            <li><input type="checkbox"> 仅显示有货商品</li>
+        </ul>
+        <div class="product-list">
+        <!--商品列表-->
+            <div class="products-row" id="plist">
+                     <!--商品-->        
+            </div>                  
+        <!--侧边栏-->
+            <div class="aside-bar">
+                <h3>商品精选</h3>
+                <div class="products">
+                    <a href="#"><img src="img/gshock1.jpg"></a>
+                    <div class="details">
+                        <p class="title">防尘防泥多功能双显运动男表 泥王GWG-1000DW-5600E-1V</p> 
+                        <p class="price">¥1990.00</p>
+                    </div> 
+                </div>
+                <div class="products">
+                    <a href="#"><img src="img/gshock2.jpg"></a>
+                    <div class="details">
+                        <p class="title">防尘防泥多功能双显运动男表 泥王GWG-1000DW-5600E-1V</p> 
+                        <p class="price">¥990.00</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="aside-bar aside-bottom">
+               <h3>购物车</h3>
+                <ul class="aside-cart" id="cart">
+                  <!--购物车商品-->
+                  <li class="price">
+                      <img src="img/float-shopping-cart.png"> 
+                      <span>¥0.00</span> 
+                      <a class="gobuy" href="shoppingcart.html">
+                      去结算
+                      </a>
+                  </li> 
+                </ul>  
+            </div> 
+        </div> 
+        <!--底部页签-->
+            <div class="line"></div>
+            <div class="pagelist" id="pagelist">
+                <ul class="page">
+                   <!--页码li-->
+                </ul>
+                <div class="jumppage">
+                    <div>到第 <input type="text"> 页</div> 
+                    <button>确定</button>
+                </div>
+            </div>
+        </div>  
+    </div> 
+    <!--网页底部-->
+    <footer id="footer"></footer>
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/ajax.js"> </script> 
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>

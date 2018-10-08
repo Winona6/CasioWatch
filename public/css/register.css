@@ -1,0 +1,85 @@
+.header{
+	width:100%;
+	height:89px;
+}
+.header_logo{
+	padding-left:200px;
+	padding-top:15px;
+}
+.center{
+	position:relative;
+    height:680px;
+    background: #9e9e9e8c url("../img/cover01.png") no-repeat;
+    background-size: 100% 100%;
+}
+.register{
+    position: absolute;
+    top: 18%;
+    right:8%;
+    background:#6562629c;
+    width:620px;
+    height:430px; 
+    border-radius:10px;
+}
+p.txt{
+    color:#fff;
+    font-size:20px;
+    margin-top:20px;
+    margin-left:15px;
+    padding:2px;   
+  }
+.txt span a{
+    color:#fff;
+    text-decoration:none;
+    font-size:16px;
+    margin-left:210px;
+}
+div.line{
+    width:396px;
+    border:0.5px solid #fff;
+    margin-left:10px;
+}
+.register .text label{
+    display:inline-block;
+    width:120px;
+    text-align: right;
+    margin-top:23px;
+    height:30px;
+    line-height: 30px;
+    color: #fff;
+    font-size:16px;
+}
+.text input{
+    border:1px solid #ddd;
+    padding:10px 20px;
+    width:44%;
+    margin-left:10px;
+    margin-top:20px;
+    margin-right:4px;
+    border-radius:3px;
+}
+.text span{
+    color:#fff;
+}
+.bt-register{
+    font-size:16px;
+    color:#fff;
+    border-radius:4px;
+    padding:10px 20px;
+    width:45%;
+    height:40px;
+    margin-top:30px;
+    margin-left:130px;
+    background:#1d1d1d;
+    border: none;
+    cursor:pointer;
+}
+#footer_bottom{
+    background: #000;
+    height:100px;           
+}
+#footer_bottom h5{
+    color:#ccc;
+    text-align: center;
+    line-height: 100px;
+}
