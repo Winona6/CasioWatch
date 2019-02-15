@@ -24,7 +24,7 @@
 ##### ☆购物车页
 ![购物车页](https://github.com/Winona6/ProjectView/blob/master/shoppingcart.png "购物车页")
 
-##### 项目收获：
+##### △项目收获：
 通过对网站开发，让我对开发的整体流程有所了解。服务器端使用Mysql创建数据库，使用Node.js来实现前后端数据的交互。
 前端每一个贴近用户的小功能都是通过html、css、JavaScript、jQuery实现的，这加深了我对于基础的掌握。
 此外，在项目开发工程中，要规范自己的代码，编码之前多思考，编码期间进行修改。养成良好的编程习惯。
